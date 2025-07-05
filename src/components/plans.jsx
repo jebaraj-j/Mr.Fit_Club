@@ -7,20 +7,20 @@ const Plans = () => {
     <>
         <Navbar/>
         <div className="plans-header">
-      <h1><span>G</span>YM <span>P</span>LANS</h1>
+      <h2><span>G</span>YM <span>P</span>LANS</h2>
         <div className="plans">
             <div className="plan plan1">
-            <h2>Basic Plan</h2>
+            <h2 className="plan-price"><span>Basic</span> Plan</h2>
             <p className='des'>Access to gym equipment and facilities</p>
             <p className='price'>$20/month</p>
             </div>
             <div className="plan plan2">
-            <h2>Premium Plan</h2>
+            <h2 className="plan-price"><span>Premium</span> Plan</h2>
             <p className='des'>Includes Basic Plan + Group classes</p>
             <p className='price'>$40/month</p>
             </div>
             <div className="plan plan3">
-            <h2>VIP Plan</h2>
+            <h2 className="plan-price"><span>VIP</span> Plan</h2>
             <p className='des'>Includes Premium Plan + Personal training sessions</p>
             <p className='price'>$60/month</p>
             </div>
