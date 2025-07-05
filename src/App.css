@@ -1,0 +1,244 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+body {
+  /* background: linear-gradient(to right, #000000 , #b30f0f); */
+  background-image:url('../assets/img1.jpg'); 
+  color: #fff;
+  font-size: 16px;
+}
+.navbar {
+  background-color: #000;
+  padding: 15px 0;
+}
+.navbar h1{
+  color: #ffffff;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.navbar  span {
+  color: #ff0000;
+}
+.navbar nav ul{
+ display: flex;
+ justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navbar nav ul li {
+  margin: 0 15px;
+}
+.navbar nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+.navbar nav ul li a:hover {
+  color: #ff0000;
+}
+.home {
+  text-align: center;
+  padding: 50px 20px;
+  background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./assets/img5.jpg');
+  background-size:cover;
+  background-position: center;
+  width: auto;
+  height: 90vh;
+  overflow: hidden;
+}
+.home .hero {
+
+  margin: 0 auto;
+  color: #fff;
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+.home .hero h1 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  position: relative;
+  top: 5px;
+  left: -29%;
+}
+.home .hero .btn {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  position: relative;
+  left: -41%;
+  top: 10px;
+}
+.home .hero .btn:hover {
+  background-color: transparent;
+  border: 2px solid #ff0000;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.footer-cont{
+  display: flex;
+  justify-content:space-evenly;
+  align-items:center;
+  flex-direction: row;
+  
+}
+.footer h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.logo span{
+  color: #ff0000;
+}
+.footer li {
+  list-style: none;
+  margin:   10px 10px;
+}
+.footer li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 10px;
+  transition: color 0.3s ease;
+
+}
+.footer li a span {
+  color: #ff0000;
+}
+.footer li a:hover {
+  color: #ff0000;
+}
+
+.plans-header {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./assets/img2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.plans-header h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.plans-header h1 span {
+  color: #ff0000;
+}
+.plans{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  height: 350px;
+}
+.plans .plan {
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  width:  200px;
+  min-height: 300px;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.plans .plan h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ff0000;
+  position: relative;
+  top: -60px;
+}
+.plan3 h2{
+  position: relative;
+  top:-25px;
+}
+.plans .plan .des {
+  font-size: 1rem;
+  position: relative;
+  top: -50px;
+  color: #fff;
+  position: relative;
+  top: -50px;
+}
+
+.plans .plan1{
+    
+   background: #000;
+   color: #fff;
+   transition: background 0.3s ease-in-out;
+}
+.plans .plan1:hover {
+    background: linear-gradient(rgba(7, 7, 7, 0.5), rgba(0, 0, 0, 0.5)),url('./assets/img3.jpg') ;
+    background-size: cover;
+    color: #fff;
+}
+.plans .plan2{
+    
+   background: #000;
+   color: #fff;
+   transition: background 0.3s ease-in-out;
+}
+.plans .plan2:hover {
+    background: linear-gradient(rgba(7, 7, 7, 0.5), rgba(0, 0, 0, 0.5)),url('./assets/img4.jpg') ;
+    background-size: cover;
+    color: #fff;
+}.plans .plan3{
+    
+   background: #000;
+   color: #fff;
+   transition: background 0.3s ease-in-out;
+}
+.plans .plan3:hover {
+    background: linear-gradient(rgba(7, 7, 7, 0.5), rgba(0, 0, 0, 0.5)),url('./assets/img1.jpg') ;
+    background-size: cover;
+    color: #fff;
+}
+.price{
+  border: 1px solid #ff0000;
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 10px;
+  color: white;
+
+}
